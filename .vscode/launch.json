@@ -1,0 +1,41 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		
+
+		{
+			"name": "Run codeinjection",
+			"type": "extensionHost",
+			"request": "launch",
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}/code-injection"
+			]
+		},
+	
+		{
+			"name": "Run diebstahl",
+			"type": "extensionHost",
+			"request": "launch",
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}/diebstahl-von-quellcode"
+			]
+		},
+		{
+			"name": "Run austausch",
+			"type": "extensionHost",
+			"request": "launch",
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}/austausch-des-kompilierten-programms"
+			]
+		},
+
+		{
+			"name": "Run prozessstarten",
+			"type": "extensionHost",
+			"request": "launch",
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}/prozess-durch-erweiterung-starten"
+			]
+		},
+	]
+}
